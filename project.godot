@@ -14,7 +14,7 @@ config/name="game-of-life"
 config/description="Small, interactive Conway's \"Game of Life\" implementation in GDScript (no shaders)."
 config/tags=PackedStringArray("sample", "tutorial")
 run/main_scene="res://src/main.tscn"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.4")
 
 [debug]
 

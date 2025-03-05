@@ -30,7 +30,7 @@ func _on_game_of_life_updated(cells: Array[bool], stats: Dictionary) -> void:
 	for i in len(cells):
 		var point: Vector2i = $GameOfLife.get_cell_point(i)
 		var tile := Vector2i.RIGHT if cells[i] else Vector2i.ZERO
-		%Grid.set_cell(0, point, 0, tile)
+		%Grid.set_cell(point, 0, tile)
 	%Actions.set_generation(stats.generation)
 	%Actions.set_population(stats.population, stats.population_percent)
 

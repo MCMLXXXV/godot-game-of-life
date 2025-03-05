@@ -37,7 +37,6 @@ func _on_action_button_pressed(action_id: StringName) -> void:
 	action_requested.emit(action_id, params)
 
 
-
 func _on_animate_toggled(toggled_on: bool) -> void:
 	$Step.disabled = toggled_on
 	action_requested.emit(&"animate", {animate = not toggled_on})

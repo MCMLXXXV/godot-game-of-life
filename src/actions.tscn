@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cf1we1w8yj43e"]
 
-[ext_resource type="Script" path="res://src/actions.gd" id="1_a44rh"]
+[ext_resource type="Script" uid="uid://c6bflixbq87en" path="res://src/actions.gd" id="1_a44rh"]
 
 [node name="Actions" type="HBoxContainer"]
 offset_right = 932.0
@@ -16,7 +16,7 @@ layout_mode = 2
 text = "Populate"
 
 [node name="Rate" type="SpinBox" parent="."]
-custom_minimum_size = Vector2(105, 0)
+custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
 min_value = 20.0
 max_value = 80.0

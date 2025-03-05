@@ -1,4 +1,4 @@
-# game_of_life.gd • [![Made with Godot 4.2][badge]][godot]
+# game_of_life.gd • [![Made with Godot 4.4][badge]][godot]
 
 A small, interactive [Conway's "Game of Life"][wiki] implementation, written in
 GDScript (no shaders).
@@ -20,5 +20,5 @@ GDScript (no shaders).
 
 
 [godot]: https://godotengine.org/
-[badge]: https://flat.badgen.net/badge/made%20with/Godot%204.2/478cbf
+[badge]: https://flat.badgen.net/badge/made%20with/Godot%204.4/478cbf
 [wiki]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
